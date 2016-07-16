@@ -74,3 +74,14 @@ TARGET_QCOM_NO_FM_FIRMWARE := true
 
 # inherit from the proprietary version
 -include vendor/lge/d855/BoardConfigVendor.mk
+
+
+
+# TWRP
+DEVICE_RESOLUTION := 1440x2560
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TW_NO_USB_STORAGE := true
+BOARD_SUPPRESS_SECURE_ERASE := true
+RECOVERY_SDCARD_ON_DATA := true
+TW_INCLUDE_CRYPTO := true
+RECOVERY_VARIANT := twrp
