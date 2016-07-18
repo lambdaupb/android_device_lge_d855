@@ -1,6 +1,0 @@
-This file is here because the qseecom
-binary is referencing the path /system/bin/linker
-statically.
-
-It should not disturb mountpoints contents will
-become invisible once the system partition is mounted.
